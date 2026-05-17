@@ -2,6 +2,7 @@
 
 import json
 import os
+from api_feriados import avisar_se_feriado
 
 ARQUIVO = "remedios.json"
 
@@ -58,6 +59,7 @@ def remover_remedio(indice):
 
 def menu():
     """Loop principal do programa."""
+    avisar_se_feriado()   # <- adicionar esta linha
     while True:
         print("=====================================")
         print("   Gerenciador de Remedios           ")
