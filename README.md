@@ -1,4 +1,5 @@
 # 💊 Gerenciador de Horários de Remediações
+🌐 **Deploy:** https://github.com/matheusperfeito-design/Gerenciador-de-horarios-de-remedios
 
 Aplicação de linha de comando (CLI) desenvolvida em Python para auxiliar no controle de remédios e horários, especialmente útil para idosos ou cuidadores que precisam organizar múltiplos medicamentos.
 
